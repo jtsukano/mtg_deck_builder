@@ -1,6 +1,6 @@
 # mtg_deck_builder
 
-# Notes
+# Notes 
 User will go to website homepage.
 The homepage will have a list of all the decks people have made
 The homepage will have a list of the top 3 ranked decks

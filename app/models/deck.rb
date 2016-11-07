@@ -1,3 +1,4 @@
-class Decks < ActiveRecord::Base
-  # Remember to create a migration!
+class Deck < ActiveRecord::Base
+  belongs_to :user
+  has_many :duels
 end

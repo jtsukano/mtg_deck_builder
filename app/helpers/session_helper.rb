@@ -17,3 +17,4 @@ helpers do
     session[:id] = nil
   end
 end
+

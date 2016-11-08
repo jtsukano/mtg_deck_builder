@@ -21,7 +21,7 @@ Deck.create!( :name  => 'tim',
               :user_id => 2)
 
 Duel.create!( :user_deck_id  => 1,
-              :opponent_deck_id => 1,
+              :opponent_deck_id => 2,
               :user_id => 1,
               :opponent_id => 2,
               :winner_id => 1,

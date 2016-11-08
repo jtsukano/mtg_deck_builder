@@ -6,6 +6,10 @@ class CreateDuels < ActiveRecord::Migration
       t.integer :user_id
       t.integer :opponent_id
       t.integer :winner_id
+      t.string :user_note
+      t.string :opponent_note
+      t.float :latitude
+      t.float :longitude
 
       t.timestamps
     end

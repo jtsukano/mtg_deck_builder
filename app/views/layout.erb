@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset='utf-8' />
+
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/application.css">
 
-  <script src="http://api.tiles.mapbox.com/mapbox.js/v2.4.0/mapbox.js"></script>
-  <link href="http://api.tiles.mapbox.com/mapbox.js/v2.4.0/mapbox.css" rel="stylesheet" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'></script>
   <script src="/js/application.js"></script>
 
-  <title></title>
+  <title>Duel Tracker</title>
 </head>
 <body>
   <header>
     <%= erb :'_header' %>
   </header>
   <%= yield %>
+  <div id='map'></div>
 </body>
 </html>

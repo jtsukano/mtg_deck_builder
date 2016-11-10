@@ -1,3 +1,5 @@
+<div>
+<a href="/">Home</a>
 <% if current_user %>
   <a href="/users/<%= current_user.id %> ">Profile Page</a>
   <form action="/sessions" method="POST">
@@ -8,3 +10,4 @@
   <a href="/sessions/new">Login</a>
   <a href="/users/new">Register</a>
 <% end %>
+</div>

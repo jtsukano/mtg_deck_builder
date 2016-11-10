@@ -2,5 +2,10 @@
 
 <% if current_user %>
   <h2>Past duels</h2>
-
+  <ul>
+    <% @user.duels.each do |duel|%>
+    <li><%= duel.opponent.username %></li>
+    <li><%= duel.opponent_deck.name %></li>
+    <% end %>
+  </ul>
 <% end %>

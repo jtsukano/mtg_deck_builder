@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
   <meta charset='utf-8' />
-
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.1/mapbox-gl-geocoder.css' type='text/css' />
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/application.css">
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.1/mapbox-gl-geocoder.js'></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
   <title>Duel Tracker</title>
@@ -20,6 +21,6 @@
     <%= erb :'_header' %>
   </header>
   <%= yield %>
-  <div id='map'></div>
+  <!-- <div id='map'></div> -->
 </body>
 </html>

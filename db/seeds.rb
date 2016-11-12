@@ -27,5 +27,5 @@ Duel.create!( :user_deck_id  => 1,
               :winner_id => 1,
               :user_note => 'jay',
               :opponent_note => 'tim',
-              :latitude => 37.784596,
-              :longitude => -122.397463)
+              :longitude => -122.397463,
+              :latitude => 37.784596)

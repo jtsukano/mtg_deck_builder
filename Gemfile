@@ -16,11 +16,12 @@ gem 'bcrypt'
 gem 'shotgun'
 gem 'pry'
 gem 'awesome_print'
+gem 'json'
 
 gem 'faker'
 
-# mtg api helper
-gem 'mtg_sdk'
+# location api helper
+gem 'geocoder'
 
 group :test do
   gem 'shoulda-matchers'

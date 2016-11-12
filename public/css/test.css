@@ -3,10 +3,12 @@ body {
   padding:0;
 }
 #map {
-  top:600;
-  bottom:0;
-  height: 500px;
-  width: 1500px;
+  position:absolute;
+  /*top:200px;*/
+  /*bottom:0;*/
+  height:100vh;
+  width:100vh;
+  z-index: -1;
 }
 
 #geocoder-container {
